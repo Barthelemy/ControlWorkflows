@@ -28,6 +28,6 @@ command:                # Specification of the command to run
                         # The module list line is added here for debug purposes.
   value: >-
     source /etc/profile.d/modules.sh &&
-    MODULEPATH=/opt/alisw/el7/modulefiles module load FairMQ &&
-    MODULEPATH=/opt/alisw/el7/modulefiles module load Control-OCCPlugin &&
+    MODULEPATH=/home/test/ControlWorkflows/MODULES/slc7_x86-64 module load FairMQ &&
+    MODULEPATH=/home/test/ControlWorkflows/MODULES/slc7_x86-64 module load Control-OCCPlugin &&
     fairmq-ex-1-n-1-sampler
