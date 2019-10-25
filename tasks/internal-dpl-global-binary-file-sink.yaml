@@ -9,7 +9,7 @@ command:
   shell: true
   value: >-
     source /etc/profile.d/modules.sh &&
-    MODULEPATH=/home/test/alice/sw/MODULES/slc7_x86-64 module load QualityControl &&
+    MODULEPATH=/home/test/alice/sw/MODULES/slc7_x86-64 module load QualityControl/latest &&
     MODULEPATH=/home/test/alice/sw/MODULES/slc7_x86-64 module load Control-OCCPlugin &&
     MODULEPATH=/home/test/alice/sw/MODULES/slc7_x86-64 module list &&
     o2-qc-run-readout -b | o2-qc-run-qc --config json:///etc/flp.d/qc/readout.json | o2-qc-run-readout
