@@ -13,6 +13,6 @@ command:
     - "file:/home/flp/readout.cfg"
   value: >-
     source /etc/profile.d/modules.sh &&
-    MODULEPATH=/home/test/ControlWorkflows/MODULES/slc7_x86-64 module load Readout &&
-    MODULEPATH=/home/test/ControlWorkflows/MODULES/slc7_x86-64 module load Control-OCCPlugin &&
+    MODULEPATH=/home/test/ControlWorkflows/alice/sw/MODULES/slc7_x86-64 module load Readout &&
+    MODULEPATH=/home/test/ControlWorkflows/alice/sw/MODULES/slc7_x86-64 module load Control-OCCPlugin &&
     readout.exe
